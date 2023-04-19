@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+body {
+  background-image: url('/assets/img/bgm.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.box {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 a {
+  font-size: 3rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 20px 20px;
+}
+
+.nav ul li a {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+nav .logo h1 a {
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Chivo Mono', monospace;
+}
+
+.nav ul li a:hover{
+  color: rgb(245, 222, 179);
+}
+
+.nav ul li a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid rgb(245, 222, 179);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.nav ul li a:hover::after {
+  transform: scaleX(1);
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quotes .quote {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.7rem;
+  padding: 3rem 2rem;
+}
+
+.quotes a {
+  color: #ffffff;
+}
