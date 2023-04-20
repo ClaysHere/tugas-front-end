@@ -47,6 +47,14 @@ body {
   align-items: center;
 }
 
+.not {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav .nav,
 footer .foot {
   width: 20%;
@@ -140,6 +148,8 @@ footer .foot.left ul li a:hover::after {
   font-weight: 400;
   font-size: 1.7rem;
   padding: 2rem 2rem;
+  width: 80%;
+  text-align: center;
 }
 
 .quotes a {
@@ -158,3 +168,110 @@ footer .logo h1 a {
 footer .logo h1 a span {
   font-size: 2rem;
 }
+
+.foot.right ul li a{
+  cursor: auto;
+  font-size: 0.8rem;
+}
+
+/* Creator */
+main.tab-creator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+main.tab-github,
+main.tab-linkedin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 86vh;
+}
+
+main .main {
+  /* margin-top: 7rem; */
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem auto;
+  height: 100%;
+}
+
+.data ul,
+.bio-data {
+  display: flex;
+}
+
+.data ul li{
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.data ul li a{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.data ul li a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.2rem solid rgb(0, 0, 0);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.data ul li a:hover::after {
+  transform: scaleX(1);
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  width: 40%;
+  border-bottom: 0.3rem solid black;
+  /* margin-bottom: 0.8rem; */
+  margin-top: 1rem;
+}
+
+#banner {
+  margin: 1rem auto;
+  border: 0.2rem solid black;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.bio {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  border: 0.3rem solid black;
+  margin-bottom: 2rem;
+}
+
+.bio-data,
+.bio-data #email a {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.bio-data {
+  padding: 1rem;
+}
+
+.bio-data .label {
+  width: 30%;
+}
+
+/* Social Work */
