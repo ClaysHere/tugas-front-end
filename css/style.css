@@ -22,7 +22,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   transition: background-image 0.5s ease-in-out;
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -39,6 +38,15 @@ body {
 }
 
 /* Navigatin bar dan footer */
+.fixed-nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav .nav,
 footer .foot {
   width: 20%;
