@@ -10,8 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,400;0,700;1,700&family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style -->
     <link rel="stylesheet" href="../css/style.css" />
-    <title></title>
+    <title>AnimalPedia</title>
   </head>
   <body>
     <div class="fixed-nav" style="display: none;">
@@ -29,15 +33,15 @@
         </div>
         <div class="nav">
           <ul>
-            <li><a href="#">NOTES</a></li>
             <li><a href="#">CONTACT</a></li>
+            <li><a href="#">CREATOR</a></li>
           </ul>
         </div>
       </nav>
     </div>
-    <div class="container">
-      <div class="box">
-        <nav class="not-fixed">
+    <!-- <div class="container"> -->
+      <!-- <div class="box"> -->
+        <nav class="not">
           <div class="nav">
             <ul>
               <li><a href="#">ABOUT US</a></li>
@@ -56,12 +60,55 @@
             </ul>
           </div>
         </nav>
-        <div class="quotes">
-          <p class="quote">Lorem ipsum dolor sit amet.</p>
+        <!-- <div class="quotes">
+          <p class="quote">Blue whales are the largest animals ever known to have lived on Earth. These magnificent marine mammals rule the oceans at up to 100 feet long and upwards of 200 tons. Their tongues alone can weigh as much as an elephant. Their hearts, as much as an automobile</p>
           <a href="#">VIEW ANIMALS</a>
+        </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+    <main class="tab-creator">
+      <section class="main">
+        <h1 class="title">Our Exceptional Crew</h1>
+        <div class="data">
+            <ul>
+                <li><a id="fikri" style="cursor: pointer;">FIKRI </a></li>
+                <li><a id="naomi" style="cursor: pointer;">NAOMI</a></li>
+                <li><a id="angelica" style="cursor: pointer;">ANGELICA</a></li>
+            </ul>
         </div>
-      </div>
-    </div>
+        <h2 id="banner">FIKRI</h2>
+        <div class="bio">
+            <div class="bio-data">
+                <p class="label">NAMA LENGKAP</p>
+                <p id="nama">: M. FIKRI</p>
+            </div>
+            <div class="bio-data">
+                <p class="label">NIM</p>
+                <p id="nim">: 221110816</p>
+            </div>
+            <div class="bio-data">
+                <p class="label">FAKULTAS</p>
+                <p id="fakultas">: INFORMATIKA</p>
+            </div>
+            <div class="bio-data">
+                <p class="label">PRODI</p>
+                <p id="prodi">: TEKNIK INFORMATIKA</p>
+            </div>
+            <div class="bio-data">
+                <p class="label">ALAMAT</p>
+                <p id="alamat">: Jl.H.M. Said Gg.Pelajar</p>
+            </div>
+            <div class="bio-data">
+                <p class="label">NO TELEPON</p>
+                <p id="nomer">: +62 851-7201-0442</p>
+            </div>
+            <div class="bio-data">
+                <p class="label">EMAIL</p>
+                <p id="email">: <a href="mailto:muhammadfikri4402@gmail.com">muhammadfikri4402@gmail.com</a></p>
+            </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="foot right">
         <ul>
@@ -71,16 +118,23 @@
       </div>
       <div class="logo">
         <h1>
-          <a href="">Animal<span>.Pedia</span></a>
+          <a href="./main.html">Animal<span>.Pedia</span></a>
         </h1>
       </div>
       <div class="foot left">
         <ul>
-          <li><a href="#">INSTAGRAM</a></li>
-          <li><a href="#">GITHUB</a></li>
+          <li><a href="./linkedin.html"><i data-feather="linkedin"></i> LinkedIn</a></li>
+          <li><a href="./github.html"><i data-feather="github"></i> GITHUB</a></li>
         </ul>
       </div>
     </footer>
+
+    <!-- Feather Icons -->
+    <script>
+        feather.replace();
+    </script>
+
+    <!-- JavaScript -->
     <script src="../js/script.js"></script>
   </body>
 </html>
