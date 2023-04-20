@@ -1,0 +1,134 @@
+<!-- halaman about -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Woodart Project - About</title>
+	</head>
+	<body>
+		<header>
+			<!--class menu untuk nav bar bagian atas -->
+			<div class="menu">
+				<nav>
+					<ul>
+						<div class="kiri">
+							<li><a href="#">About</a></li>
+							<li><a href="#">Projects</a></li>
+						</div>
+						<div class="logo">
+							<li><a href="#"><img src="#" alt="logo"></a></li>
+						</div>
+						<div class="kanan">
+							<li><a href="#">Notes</a></li>
+							<li><a href="#">Contacts</a></li>
+						</div>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<hr>
+		
+		<div class="about">
+			<h1>About WoodArt Project</h1>
+			<hr>
+
+			<div class="abkiri">
+				<h2>We are WoodArt Project</h2>
+				<p>slogan pendek</p>
+			</div>
+			<div class="abkanan">
+				<h2>About Us<h2>
+				<p>deskripsi panjang</p>
+			</div>
+		</div>
+
+		<!-- bagian visi dan misi gitu lah-->
+		<div class="value">
+			<h1>Our Values</h1>
+			<div class="subvalue">
+				<p>01</p>
+				<p>value ke 1</p>
+				<p>penjelasan value bla bla bla</p>
+			</div>
+			<div class="subvalue">
+				<p>02</p>
+				<p>value ke 2</p>
+				<p>penjelasan value bla bla bla</p>
+			</div>
+			<div class="subvalue">
+				<p>03</p>
+				<p>value ke 3</p>
+				<p>penjelasan value bla bla bla</p>
+			</div>
+			<div class="subvalue">
+				<p>04</p>
+				<p>value ke 4</p>
+				<p>penjelasan value bla bla bla</p>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="testimoni">
+			<div class="testiatas">
+				<p>Testimonies</p>
+				<div class="nomor">
+					<a href="#">01</a>
+					<a href="#">02</a>
+					<a href="#">03</a>
+				</div>
+			</div>
+
+			<div class="testibawah">
+				<p>Nama orangnya</p>
+				<p>Nama perusahaan</p>
+				<q>Quotes bla bla bla</q>
+			</div>
+		</div>
+
+		<div class="who">
+			<p>Who We Work with</p>
+			<div class="artis">
+				<p>01</p>
+				<p>independent artists</p>
+				<p>penjelasan value bla bla bla</p>
+			</div>
+
+			<div class="artis">
+				<p>02</p>
+				<p>established artists</p>
+				<p>penjelasan value bla bla bla</p>
+			</div>
+
+			<div class="artis">
+				<p>03</p>
+				<p>creative companies</p>
+				<p>penjelasan value bla bla bla</p>
+			</div>
+
+			<div class="artis">
+				<p>04</p>
+				<p>museums</p>
+				<p>penjelasan value bla bla bla</p>
+			</div>
+		</div>
+
+		<div class="work">
+			<hr>
+			<a href="#">Work with Us</a>
+		</div>
+	</body>
+
+	<footer>
+		<div class="copyright">
+			<p>Imagery &copy; of respective owners</p>
+				<p>Copyright WoodArt Project 2023</p>
+		</div>
+		<img src="#" alt="logo">
+		<div class="sosmed">
+			<a href="#">Instagram</a>
+			<a href="#">Twitter</a>
+		</div>
+	</footer>
+</html>
