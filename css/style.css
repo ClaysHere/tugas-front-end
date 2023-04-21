@@ -10,6 +10,10 @@
   list-style: none;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -17,7 +21,7 @@ body {
 }
 
 .container {
-  background-image: url('/assets/img/bg-1.jpg');
+  background-image: url('../assets/img/bg-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -43,14 +47,6 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.not {
-  display: flex;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
   justify-content: space-between;
   align-items: center;
 }
@@ -148,8 +144,6 @@ footer .foot.left ul li a:hover::after {
   font-weight: 400;
   font-size: 1.7rem;
   padding: 2rem 2rem;
-  width: 80%;
-  text-align: center;
 }
 
 .quotes a {
@@ -169,109 +163,145 @@ footer .logo h1 a span {
   font-size: 2rem;
 }
 
-.foot.right ul li a{
-  cursor: auto;
-  font-size: 0.8rem;
-}
-
-/* Creator */
-main.tab-creator {
+.animalslink{
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-  min-height: 100vh;
-}
-
-main.tab-github,
-main.tab-linkedin {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 86vh;
+  width: 75%;
+  padding: auto;
 }
 
-main .main {
-  /* margin-top: 7rem; */
-  margin-bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 2rem auto;
-  height: 100%;
+.animalslink a:hover{
+  color: #80ff00;
 }
 
-.data ul,
-.bio-data {
-  display: flex;
+.animalslink a{
+  color:white;
+  font-size: 40px;
+  margin: auto 40px;
+  padding:20px;
 }
 
-.data ul li{
-  padding: 0 1rem;
-  text-align: center;
+.container .box .save{
+  font-size: 25px;
+  padding: 5px;
+  margin: 20px;
+  color: #ffffff;
 }
 
-.data ul li a{
-  font-size: 1.5rem;
-  font-weight: 700;
+.kiri , .kanan{
+  display:flex;
+    gap:10px;
+    align-items:center;
 }
 
-.data ul li a::after {
-  content: "";
-  display: block;
-  padding-bottom: 0.1rem;
-  border-bottom: 0.2rem solid rgb(0, 0, 0);
-  transform: scaleX(0);
-  transition: 0.2s linear;
+li{
+  list-style-type:none;
 }
 
-.data ul li a:hover::after {
-  transform: scaleX(1);
+h1 , .about h2{
+  text-align:center;
 }
 
-.title {
-  font-size: 3rem;
-  text-align: center;
-  width: 40%;
-  border-bottom: 0.3rem solid black;
-  /* margin-bottom: 0.8rem; */
-  margin-top: 1rem;
+.about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin:65px 100px;
+    padding:auto;
+    align-items: baseline;
+    color: #ffffff;
 }
 
-#banner {
-  margin: 1rem auto;
-  border: 0.2rem solid black;
-  padding: 0.2rem 0.5rem;
-  border-radius: 1rem;
+.ab{
+  display:flex;
+  justify-content:space-between;
+  padding:auto;
+  align-items: baseline;
+  margin: 30px 0;
 }
 
-.bio {
+.abkiri h2, .abkanan h2{
+  text-align:left;
+  margin: 20px 0;
+  color: #80ff00;
+  font-family: 'Chivo Mono', monospace;
+  font-style: italic;
+}
+
+.abkiri, .abkanan{
   width: 50%;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.7rem;
-  padding: 1rem;
-  border: 0.3rem solid black;
-  margin-bottom: 2rem;
+  margin: 0 100px;
 }
 
-.bio-data,
-.bio-data #email a {
-  font-weight: 700;
-  font-size: 1.3rem;
+.abkiri p{
+  font-size:22px;
 }
 
-.bio-data {
-  padding: 1rem;
+a{
+  text-decoration:none;
 }
 
-.bio-data .label {
-  width: 30%;
+.value{
+  display:grid;
+  grid-template-columns:auto auto;
+  justify-content:space-evenly;
+  margin:65px 100px;
+  padding: auto;
 }
 
-/* Social Work */
+.subvalue{
+    display:grid;
+    grid-template-columns:auto auto;
+    margin: 60px 100px;
+    gap: 10px;
+}
+
+.subvalue h2{
+  color: #80ff00;
+  font-family: 'Chivo Mono', monospace;
+  font-style: italic;
+}
+
+.nomor{
+  grid-row: 1 / 3;
+  font-size: 12px;
+}
+
+.testiatas{
+  display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:auto;
+    margin:20px 100px;
+}
+
+.testibawah{
+  display:flex;
+    grid-template-columns:auto auto;
+    align-items:center;
+    justify-content:space-between;
+    margin:25px 100px;
+    padding:auto;
+}
+
+.value{
+  color:white;
+}
+
+.value h1, .value hr{
+  grid-column: 1/3;
+  margin: auto;
+}
+
+.about hr, .value hr{
+  border: 1px solid white;
+  width: 100%;
+}
+
+.about h1, .value h1{
+  margin: 20px;
+  font-size: 35px;
+}
